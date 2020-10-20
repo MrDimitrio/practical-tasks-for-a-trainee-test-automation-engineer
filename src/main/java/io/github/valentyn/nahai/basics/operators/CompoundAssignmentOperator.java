@@ -23,8 +23,36 @@ public class CompoundAssignmentOperator {
 
         totalResult = totalResult % 7;
         System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult % 7;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult += 30;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult -= 15;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult /=2;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult *=4;
+        System.out.println("Total result: " + totalResult);
         
-        // Hint: int totalResult += 30;
-        // ...
+        totalResult = totalResult %=5;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult &=15;
+        System.out.println("Total result: " + totalResult);
+        
+        totalResult = totalResult |=25;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult <<=5;
+        System.out.println("Total result: " + totalResult);
+
+        totalResult = totalResult >>=5;
+        System.out.println("Total result: " + totalResult);
+        
     }
 }

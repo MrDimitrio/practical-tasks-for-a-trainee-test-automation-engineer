@@ -8,12 +8,15 @@ public class VariableDeclaration {
     public static void main(String[] args) {
         byte byteValue = 100;
         short shortValue = 30549;
-        // ...
-        // Your code here
-
+        long longValue = 1234567890;
+        float floatValue = 1434567890;
+        double doubleValue = 492359419;
+    
         System.out.println("A \"byte\" type variable: " + byteValue);
         System.out.println("A \"short\" type variable: " + shortValue);
-        // ...
-        // Your code here
+        System.out.println("A \"long\" type variable: " + longValue);
+        System.out.println("A \"float\" type variable: " + floatValue);
+        System.out.println("A \"double\" type variable: " + doubleValue);
+        
     }
 }
